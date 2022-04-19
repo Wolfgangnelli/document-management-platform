@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 4800 4800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fc346f;
+      }
+    </style>
+  </defs>
+  <image id="Sfondo" width="4800" height="4800" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAUklEQVRoge3PAQ3AMAzAsH78Ofcwskk2guTb3Z2HnZfjx8AFDNQM1AzUDNQM1AzUDNQM1AzUDNQM1AzUDNQM1AzUDNQM1AzUDNQM1AzUDKRm5gcbUwRcCefcaQAAAABJRU5ErkJggg=="/>
+  <rect id="Rettangolo_1" data-name="Rettangolo 1" class="cls-1" x="-2" y="-4" width="4834" height="4828" rx="15" />
+</svg>

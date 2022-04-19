@@ -1,0 +1,24 @@
+@import "../../Themes/variables";
+
+.divider {
+  display: flex;
+
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+
+.gradient {
+  align-items: stretch;
+  margin: 1em auto;
+  height: 2px;
+
+  &::before {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), $blue-1);
+  }
+  &::after {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0), $blue-1);
+  }
+}

@@ -1,0 +1,112 @@
+[
+    { "snippet": [
+        {
+          "key": "event",
+          "value": "GAevent"
+      },
+      {
+          "key": "eventID",
+          "value": ""
+      },
+      {
+          "key": "eventCategory",
+          "value": "search"
+      },
+      {
+          "key": "eventAction",
+          "value": "website"
+      },
+      {
+          "key": "eventLabel",
+          "value": "$$$keywords$$$"
+      }
+  ]},
+      { "snippet": [
+          {
+            "key": "event",
+            "value": "GAevent"
+        },
+        {
+            "key": "eventID",
+            "value": ""
+        },
+        {
+            "key": "eventCategory",
+            "value": "product"
+        },
+        {
+            "key": "eventAction",
+            "value": "selectSize"
+        },
+        {
+            "key": "eventLabel",
+            "value": "$$$size$$$"
+        }
+      ]},
+      { "snippet": [
+          {
+            "key": "event",
+            "value": "GAevent"
+        },
+        {
+            "key": "eventID",
+            "value": ""
+        },
+        {
+            "key": "eventCategory",
+            "value": "product"
+        },
+        {
+            "key": "eventAction",
+            "value": "selectSize"
+        },
+        {
+            "key": "eventLabel",
+            "value": "$$$size$$$"
+        }
+      ]},
+      { "snippet": [
+          {
+            "key": "event",
+            "value": "GAevent"
+        },
+        {
+            "key": "eventID",
+            "value": ""
+        },
+        {
+            "key": "eventCategory",
+            "value": "checkAvailability"
+        },
+        {
+            "key": "eventAction",
+            "value": "$$$code10$$$"
+        },
+        {
+            "key": "eventLabel",
+            "value": "$$$size$$$"
+        }
+      ]},
+      { "snippet": [
+          {
+            "key": "event",
+            "value": "GAevent"
+        },
+        {
+            "key": "eventID",
+            "value": ""
+        },
+        {
+            "key": "eventCategory",
+            "value": "checkAvailability"
+        },
+        {
+            "key": "eventAction",
+            "value": "$$$code10$$$"
+        },
+        {
+            "key": "eventLabel",
+            "value": "$$$size$$$"
+        }
+      ]}
+  ]

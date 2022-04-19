@@ -1,0 +1,12 @@
+.venv
+.git
+.idea
+python-binaries
+bin
+tmp
+node_modules
+*.sql
+*.sql.gz
+mysqldata
+dumps/*
+*.pyc

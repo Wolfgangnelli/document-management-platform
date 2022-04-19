@@ -1,0 +1,101 @@
+{
+    "category": 
+    {
+    "fashion": [
+    {
+        "id": 1,
+        "cliente": "Armani",
+        "websites": [
+            "www.armani.com",
+            "www.armanicasa.com"
+        ],
+        "image": "image.png"
+    },
+    {
+        "id": 5,
+        "cliente": "Imperial Fashion",
+        "websites": [
+            "www.imperialfashion.com",
+            "www.imperialfashioncasa.com"
+        ],
+        "image": "image.png"
+    },
+    {
+        "id": 6,
+        "cliente": "Valentino",
+        "websites": [
+            "www.valentino.com",
+            "www.valentinocasa.com"
+        ],
+        "image": "image.png"
+    },
+    {
+        "id": 8,
+        "cliente": "Bulgari",
+        "websites": [
+            "www.bulgari.com",
+            "www.bulgaricasa.com"
+        ],
+        "image": "image.png"
+    },
+    {
+        "id": 9,
+        "cliente": "Calzedonia",
+        "websites": [
+            "www.calzedonia.com",
+            "www.calzedoniacasa.com"
+        ],
+        "image": "image.png"
+    }
+],
+    "food": [
+    {
+        "id": 2,
+        "cliente": "Barilla",
+        "websites": [
+            "www.barilla.com",
+            "www.barillacasa.com"
+        ],
+        "image": "image.png"
+    },
+    {
+        "id": 7,
+        "cliente": "Mutti",
+        "websites": [
+            "www.mutti.com",
+            "www.mutticasa.com"
+        ],
+        "image": "image.png"
+    },
+    {
+        "id": 10,
+        "cliente": "Danone",
+        "websites": [
+            "www.danone.com",
+            "www.danonecasa.com"
+        ],
+        "image": "image.png"
+    }
+],
+    "fun": [
+    {
+        "id": 3,
+        "cliente": "Visit Trentino",
+        "websites": [
+            "www.visitrentino.com",
+            "www.visitrentinocasa.com"
+        ],
+        "image": "image.png"
+    },
+    {
+        "id": 4,
+        "cliente": "Dove vivo",
+        "websites": [
+            "www.dovevivo.com",
+            "www.dovevivocasa.com"
+        ],
+        "image": "image.png"
+    }
+]
+}
+}

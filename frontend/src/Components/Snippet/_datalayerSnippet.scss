@@ -1,0 +1,49 @@
+@import "../../Themes/variables";
+
+.tag {
+  color: $tag;
+}
+.punctuation {
+  color: $punctuation;
+}
+.keyword {
+  color: $keyword;
+}
+.method-name {
+  color: $method-name;
+}
+.plain-text {
+  color: $plain-text;
+}
+.value {
+  color: $value;
+}
+.value:hover {
+  color: $value-hover;
+}
+
+.snippetHover:hover {
+  background-color: $cyan;
+  padding: 2px !important;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.snippetSelected {
+  background-color: $success;
+  border-radius: 15px;
+  padding: 2px !important;
+  cursor: pointer;
+}
+
+.not-selectable {
+  background-color: $pink-1;
+  opacity: 0.4;
+  cursor: not-allowed;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.list-group-item {
+  padding: 2px !important;
+  border-radius: 15px !important;
+}

@@ -1,0 +1,458 @@
+{
+    "eCommerce": [
+        {
+            "id": "1",
+            "title": "Product Impression",
+            "action": "Il codice deve essere inserito in ogni listing per tenere traccia di tutte le impression generate da ogni singolo prodotto.",
+            "note": "Nel caso in cui l'utente aggiorni l'elenco dei prodotti selezionando un diverso ordinamento è necessario inviare di nuovamente le impression di prodotto, aggiornando il valore list",
+            "parameter": {
+                "event": "view_item_list",
+                "ecommerce": {
+                    "currencyCode": "$$$currency_code$$$",
+                    "items": [
+                        {
+                            "key": "item_id",
+                            "value": "$$$product_id$$$"
+                        },
+                        {
+                            "key": "item_name",
+                            "value": "$$$product_name$$$"
+                        },
+                        {
+                            "key": "price",
+                            "value": "$$$product_price$$$"
+                        },
+                        {
+                            "key": "item_brand",
+                            "value": "$$$brand$$$"
+                        },
+                        {
+                            "key": "item_category",
+                            "value": "$$$product_category$$$"
+                        },
+                        {
+                            "key": "item_category2",
+                            "value": "$$$product_category2$$$"
+                        },
+                        {
+                            "key": "item_category3",
+                            "value": "$$$product_category3$$$"
+                        },
+                        {
+                            "key": "item_category4",
+                            "value": "$$$product_category4$$$"
+                        },
+                        {
+                            "key": "item_variant",
+                            "value": "$$$color_variant$$$"
+                        },
+                        {
+                            "key": "item_list_name",
+                            "value": "$$$product_list$$$"
+                        },
+                        {
+                            "key": "item_list_id",
+                            "value": "$$$product_position$$$"
+                        },
+                        {
+                            "key": "index",
+                            "value": "$$$value$$$"
+                        },
+                        {
+                            "key": "quantity",
+                            "value": "$$$value$$$"
+                        }
+                    ]
+                }
+            },
+            "image": "https://picsum.photos/600/600",
+            "link_url": "https://www.linkSitoWeb.it",
+            "priority": "Mandatory"
+        },
+    {
+        "id": "2",
+        "title": "Product Click",
+        "action": "Il codice deve essere inserito in ogni listing per tenere traccia di tutti i click generati da ogni singolo prodotto.",
+        "note": "",
+        "parameter": {
+            "event": "select_item",
+            "ecommerce": {
+                "currencyCode": "$$$currency_code$$$",
+                "items": [
+                    {
+                        "key": "item_id",
+                        "value": "$$$product_id$$$"
+                    },
+                    {
+                        "key": "item_name",
+                        "value": "$$$product_name$$$"
+                    },
+                    {
+                        "key": "price",
+                        "value": "$$$product_price$$$"
+                    },
+                    {
+                        "key": "item_brand",
+                        "value": "$$$brand$$$"
+                    },
+                    {
+                        "key": "item_category",
+                        "value": "$$$product_category$$$"
+                    },
+                    {
+                        "key": "item_category2",
+                        "value": "$$$product_category2$$$"
+                    },
+                    {
+                        "key": "item_category3",
+                        "value": "$$$product_category3$$$"
+                    },
+                    {
+                        "key": "item_category4",
+                        "value": "$$$product_category4$$$"
+                    },
+                    {
+                        "key": "item_variant",
+                        "value": "$$$color_variant$$$"
+                    },
+                    {
+                        "key": "item_list_name",
+                        "value": "$$$product_list$$$"
+                    },
+                    {
+                        "key": "item_list_id",
+                        "value": "$$$product_position$$$"
+                    },
+                    {
+                        "key": "index",
+                        "value": "$$$value$$$"
+                    },
+                    {
+                        "key": "quantity",
+                        "value": "$$$value$$$"
+                    }
+                ]
+            }
+        },
+        "image": "https://picsum.photos/600/600",
+        "link_url": "https://www.linkSitoWeb.it",
+        "priority": "Mandatory"
+    },
+    {
+        "id": "3",
+        "title": "Product Detail",
+        "action": "Il codice deve essere inserito in ogni listing per tenere traccia di tutti i click generati da ogni singolo prodotto.",
+        "note": "",
+        "parameter": {
+            "event": "view_item",
+            "ecommerce": {
+                "currencyCode": "$$$currency_code$$$",
+                "items": [
+                    {
+                        "key": "item_id",
+                        "value": "$$$product_id$$$"
+                    },
+                    {
+                        "key": "item_name",
+                        "value": "$$$product_name$$$"
+                    },
+                    {
+                        "key": "price",
+                        "value": "$$$product_price$$$"
+                    },
+                    {
+                        "key": "item_brand",
+                        "value": "$$$brand$$$"
+                    },
+                    {
+                        "key": "item_category",
+                        "value": "$$$product_category$$$"
+                    },
+                    {
+                        "key": "item_category2",
+                        "value": "$$$product_category2$$$"
+                    },
+                    {
+                        "key": "item_category3",
+                        "value": "$$$product_category3$$$"
+                    },
+                    {
+                        "key": "item_category4",
+                        "value": "$$$product_category4$$$"
+                    },
+                    {
+                        "key": "item_variant",
+                        "value": "$$$color_variant$$$"
+                    },
+                    {
+                        "key": "item_list_name",
+                        "value": "$$$product_list$$$"
+                    },
+                    {
+                        "key": "item_list_id",
+                        "value": "$$$product_position$$$"
+                    },
+                    {
+                        "key": "index",
+                        "value": "$$$value$$$"
+                    },
+                    {
+                        "key": "quantity",
+                        "value": "$$$value$$$"
+                    }
+                ]
+            }
+        },
+        "image": "https://picsum.photos/600/600",
+        "link_url": "https://www.linkSitoWeb.it",
+        "priority": "Medium"
+    },
+    {
+        "id": "4",
+        "title": "Add to Cart",
+        "action": "Quando un prodotto viene aggiunto al carrello, occorre eseguire il seguente codice.",
+        "note": "",
+        "parameter": {
+            "event": "add_to_cart",
+            "ecommerce": {
+                "currencyCode": "$$$currency_code$$$",
+                "value": "$$$total_value$$$",
+                "items": [
+                    {
+                        "key": "item_id",
+                        "value": "$$$item_id$$$"
+                    },
+                    {
+                        "key": "item_name",
+                        "value": "$$$item_name$$$"
+                    },
+                    {
+                        "key": "price",
+                        "value": "$$$item_price$$$"
+                    },
+                    {
+                        "key": "affiliation",
+                        "value": "$$$item_price$$$"
+                    },
+                    {
+                        "key": "coupon",
+                        "value": "$$$item_coupon$$$"
+                    },
+                    {
+                        "key": "discount",
+                        "value": "$$$item_discount$$$"
+                    },
+                    {
+                        "key": "item_brand",
+                        "value": "$$$item_brand$$$"
+                    },
+                    {
+                        "key": "item_category",
+                        "value": "$$$item_category$$$"
+                    },
+                    {
+                        "key": "item_category2",
+                        "value": "$$$item_category2$$$"
+                    },
+                    {
+                        "key": "item_category3",
+                        "value": "$$$item_category3$$$"
+                    },
+                    {
+                        "key": "item_category4",
+                        "value": "$$$item_category4$$$"
+                    },
+                    {
+                        "key": "item_variant",
+                        "value": "$$$color_variant$$$"
+                    },
+                    {
+                        "key": "item_list_name",
+                        "value": "$$$item_list$$$"
+                    },
+                    {
+                        "key": "item_list_id",
+                        "value": "$$$item_position$$$"
+                    },
+                    {
+                        "key": "index",
+                        "value": "$$$value$$$"
+                    },
+                    {
+                        "key": "quantity",
+                        "value": "$$$value$$$"
+                    }
+                ]
+            }
+        },
+        "image": "https://picsum.photos/600/600",
+        "link_url": "https://www.linkSitoWeb.it",
+        "priority": "Medium"
+    },
+    {
+        "id": "5",
+        "title": "Remove from Cart",
+        "action": "Quando un prodotto viene rimosso dal carrello, occorre eseguire il seguente codice.",
+        "note": "",
+        "parameter": {
+            "event": "remove_from_cart",
+            "ecommerce": {
+                "currencyCode": "$$$currency_code$$$",
+                "value": "$$$total_value$$$",
+                "items": [
+                    {
+                        "key": "item_id",
+                        "value": "$$$item_id$$$"
+                    },
+                    {
+                        "key": "item_name",
+                        "value": "$$$item_name$$$"
+                    },
+                    {
+                        "key": "price",
+                        "value": "$$$item_price$$$"
+                    },
+                    {
+                        "key": "affiliation",
+                        "value": "$$$item_price$$$"
+                    },
+                    {
+                        "key": "coupon",
+                        "value": "$$$item_coupon$$$"
+                    },
+                    {
+                        "key": "discount",
+                        "value": "$$$item_discount$$$"
+                    },
+                    {
+                        "key": "item_brand",
+                        "value": "$$$item_brand$$$"
+                    },
+                    {
+                        "key": "item_category",
+                        "value": "$$$item_category$$$"
+                    },
+                    {
+                        "key": "item_category2",
+                        "value": "$$$item_category2$$$"
+                    },
+                    {
+                        "key": "item_category3",
+                        "value": "$$$item_category3$$$"
+                    },
+                    {
+                        "key": "item_category4",
+                        "value": "$$$item_category4$$$"
+                    },
+                    {
+                        "key": "item_variant",
+                        "value": "$$$color_variant$$$"
+                    },
+                    {
+                        "key": "item_list_name",
+                        "value": "$$$item_list$$$"
+                    },
+                    {
+                        "key": "item_list_id",
+                        "value": "$$$item_position$$$"
+                    },
+                    {
+                        "key": "index",
+                        "value": "$$$value$$$"
+                    },
+                    {
+                        "key": "quantity",
+                        "value": "$$$value$$$"
+                    }
+                ]
+            }
+        },
+        "image": "https://picsum.photos/600/600",
+        "link_url": "https://www.linkSitoWeb.it",
+        "priority": "Medium"
+    },
+    {
+        "id": "6",
+        "title": "Begin Checkout",
+        "action": "Quando un utente avvia la procedure di pagamento.",
+        "note": "",
+        "parameter": {
+            "event": "remove_from_cart",
+            "ecommerce": {
+                "currencyCode": "$$$currency_code$$$",
+                "value": "$$$total_value$$$",
+                "coupon": "$$$item_coupon$$$",
+                "items": [
+                    {
+                        "key": "item_id",
+                        "value": "$$$item_id$$$"
+                    },
+                    {
+                        "key": "item_name",
+                        "value": "$$$item_name$$$"
+                    },
+                    {
+                        "key": "price",
+                        "value": "$$$item_price$$$"
+                    },
+                    {
+                        "key": "affiliation",
+                        "value": "$$$item_price$$$"
+                    },
+                    {
+                        "key": "coupon",
+                        "value": "$$$item_coupon$$$"
+                    },
+                    {
+                        "key": "discount",
+                        "value": "$$$item_discount$$$"
+                    },
+                    {
+                        "key": "item_brand",
+                        "value": "$$$item_brand$$$"
+                    },
+                    {
+                        "key": "item_category",
+                        "value": "$$$item_category$$$"
+                    },
+                    {
+                        "key": "item_category2",
+                        "value": "$$$item_category2$$$"
+                    },
+                    {
+                        "key": "item_category3",
+                        "value": "$$$item_category3$$$"
+                    },
+                    {
+                        "key": "item_category4",
+                        "value": "$$$item_category4$$$"
+                    },
+                    {
+                        "key": "item_variant",
+                        "value": "$$$color_variant$$$"
+                    },
+                    {
+                        "key": "item_list_name",
+                        "value": "$$$item_list$$$"
+                    },
+                    {
+                        "key": "item_list_id",
+                        "value": "$$$item_position$$$"
+                    },
+                    {
+                        "key": "index",
+                        "value": "$$$value$$$"
+                    },
+                    {
+                        "key": "quantity",
+                        "value": "$$$value$$$"
+                    }
+                ]
+            }
+        },
+        "image": "https://picsum.photos/600/600",
+        "link_url": "https://www.linkSitoWeb.it",
+        "priority": "Medium"
+    }
+]
+}

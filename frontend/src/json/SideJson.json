@@ -1,0 +1,32 @@
+[
+    {
+      "title": "New Doc",
+      "path": "/new-doc",
+      "subNav": [],
+      "icon": "fas fa-plus"
+    },
+    {
+      "title": "Interactions",
+      "path": "/interaction",
+      "subNav": [],
+      "icon": "fas fa-hand-pointer"
+    },
+    {
+      "title": "Snippets",
+      "path": "/snippet",
+      "subNav": [],
+      "icon": "fas fa-code"
+    },
+    {
+      "title": "Events",
+      "path": "/event",
+      "subNav": [],
+      "icon": "fas fa-fire-alt"
+    },
+    {
+      "title": "Variables",
+      "path": "/variable",
+      "subNav": [],
+      "icon": "fas fa-skull"
+    }
+  ]

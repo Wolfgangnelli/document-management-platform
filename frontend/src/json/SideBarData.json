@@ -1,0 +1,65 @@
+[
+{
+    "title": "Versioning",
+    "path": "/versioning",
+    "subNav":[],
+    "icon": "fas fa-table"
+},
+{
+    "title": "Introduzione",
+    "path": "/introduzione",
+    "subNav":[],
+    "icon": "fas fa-info-circle"
+},
+{
+    "title": "DataLayer e GTM",
+    "path": "/datalayer-gtm",
+    "icon": "fas fa-layer-group",
+    "subNav":[
+        {
+        "title": "Introduzione",
+        "path": "/introduzione"
+    },
+    {
+        "title": "Codice standard GTM",
+        "path": "/codice-standard-gtm"
+    },
+    {
+        "title": "Datalayer",
+        "path": "/datalayer"
+    }
+    ]
+},
+{
+    "title": "Implementazioni",
+    "path": "/implementazioni",
+    "icon": "fas fa-cogs",
+    "subNav":[
+        {
+        "title": "Introduzione",
+        "path": "/introduzione"
+    },
+    {
+        "title": "Interazioni sul sito",
+        "path": "/interazioni-sul-sito"
+    }
+    ]
+},
+{
+    "title": "E-commerce",
+    "path": "/e-commerce",
+    "icon": "fas fa-shopping-cart",
+    "subNav":[
+        {
+        "title": "E-commerce",
+        "path": ""
+    },
+    {
+        "title": "Resi",
+        "path": "/resi"
+    }
+    ]
+}
+]
+
+

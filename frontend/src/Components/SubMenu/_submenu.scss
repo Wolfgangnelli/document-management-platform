@@ -1,0 +1,104 @@
+@import "../../Themes//variables";
+
+.arrow-rotate i {
+  transition: all 0.2s ease;
+  float: right;
+}
+.arrow-rotate-true i {
+  transition: all 0.2s ease;
+  transform: rotateZ(90deg);
+  float: right;
+}
+
+.sub-nav {
+  background: linear-gradient(
+    90deg,
+    rgba(254, 150, 40, 1) 0%,
+    rgba(242, 0, 149, 1),
+    42%,
+    rgba(6, 75, 255, 1) 100%
+  );
+}
+
+.border-gradient {
+  border: 2px solid !important;
+  border-radius: 15px !important;
+  border-image-slice: 1 !important;
+  border-width: 2px !important;
+  padding: 5px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(
+    to left,
+    $blue-1,
+    $purple-1,
+    $pink-1
+  ) !important;
+  position: relative;
+}
+
+/* #ec4899,
+    #a855f7,
+    #6366f1 */
+
+/*     .border-gradient-purple::before {
+      content: "";
+      background: linear-gradient(
+        45deg,
+        #ff0000,
+        #ff7300,
+        #fffb00,
+        #48ff00,
+        #00ffd5,
+        #002bff,
+        #7a00ff,
+        #ff00c8,
+        #ff0000
+      );
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      animation: glowing 20s linear infinite;
+      opacity: 0;
+      transition: opacity 0.3 ease-in-out;
+      border-radius: 10px;
+      border: none !important;
+    }
+    .border-gradient-purple:active {
+      color: #000;
+      border: 0px !important;
+    }
+    .border-gradient-purple:active::after {
+      background: transparent;
+    }
+    .border-gradient-purple:hover::before {
+      opacity: 1;
+      border: 0px !important;
+    }
+    .border-gradient-purple::after {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #111;
+      left: 0;
+      top: 0;
+      border-radius: 10px;
+    }
+    @keyframes glowing {
+      0% {
+        background-position: 0 0;
+      }
+      50% {
+        background-position: 400% 0;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    } */

@@ -1,0 +1,42 @@
+@import "../../../../../Themes/variables";
+
+.snippet-highlight {
+  background-color: rgb(40, 44, 52);
+  border-radius: 10px;
+  overflow: auto;
+  tab-size: 1.5em;
+  margin: 15px 0px;
+  padding: 0px 15px;
+  min-height: 251px;
+  box-shadow: 0 4px 8px 0 rgba(253, 253, 253, 0.2);
+  transition: 0.3s;
+}
+.snippet-highlight:hover {
+  box-shadow: 0 8px 16px 0 rgba(253, 253, 253, 0.2);
+}
+.snippet-code-jsx {
+  margin: 1rem;
+  font-size: 18px;
+  line-height: 20px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  height: auto !important;
+}
+.tag {
+  color: $tag;
+}
+.punctuation {
+  color: $punctuation;
+}
+.keyword {
+  color: $keyword;
+}
+.method-name {
+  color: $method-name;
+}
+.plain-text {
+  color: $plain-text;
+}
+.value {
+  color: $value;
+}

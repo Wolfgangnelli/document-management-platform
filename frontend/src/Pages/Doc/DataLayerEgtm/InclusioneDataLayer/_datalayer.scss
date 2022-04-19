@@ -1,0 +1,27 @@
+@import "../../../../Themes/variables";
+
+.tab {
+  margin-left: 2.5rem !important;
+  border-radius: 5px;
+}
+.tip {
+  background-color: $tip-tab;
+  padding: 0 2rem 2rem;
+  margin: 3.2rem 14rem 2rem 0;
+  display: table;
+}
+.tip-title {
+  background: $tip;
+  padding: 0.6rem 1.5rem;
+  font-weight: 600;
+  font-size: 1.13rem;
+  top: -17px;
+  left: -20px;
+  display: inline-block;
+  position: relative;
+  color: black;
+  border-radius: 5px;
+}
+.value {
+  color: $value;
+}

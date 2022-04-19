@@ -1,0 +1,51 @@
+version: "3.9"
+
+services:
+#  db:
+#    image: mysql:5.7
+#    ports:
+#      - "3306:3306"
+#    environment:
+#      - MYSQL_DATABASE=wa-doc-db
+#      - MYSQL_USER=user
+#      - MYSQL_PASSWORD=password
+#      - MYSQL_ROOT_PASSWORD=
+#      - MYSQL_ALLOW_EMPTY_PASSWORD="yes"
+#    command:
+#      [
+#        "mysqld",
+#        "--max_allowed_packet=32505856",
+#        "--character-set-server=utf8mb4",
+#        "--collation-server=utf8mb4_unicode_ci",
+#      ]
+
+  mysql:
+    container_name: doc-generator-mysql
+    restart: always
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    volumes:
+      - "./mysqldata:/var/lib/mysql/"
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    command: --explicit-defaults-for-timestamp=1
+
+  backend:
+    container_name: doc-generator-backend
+    build:
+      context: .
+      dockerfile: ./docker/local/Dockerfile
+    ports:
+      - "9000:9000"
+    volumes:
+      - .:/code
+    environment:
+      DJANGO_SETTINGS_MODULE: "w_analytics_doc_generator.settings.local"
+    depends_on:
+      - mysql
+    #command: tail -f /dev/null
+    command: python manage.py runserver 0.0.0.0:9000
+
+    stdin_open: true
+    tty: true

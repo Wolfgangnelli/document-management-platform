@@ -1,0 +1,97 @@
+{
+    "interaction": [
+        {
+            "id": "1",
+            "title": "Ricerca nel sito",
+            "action": "quando l'utente effettua una ricerca su sito. Nella barra di ricerca generale situata in alto nel sito.",
+            "note": "",
+            "parameter": [
+                {
+                    "key": "event",
+                    "value": "GAevent"
+                },
+                {
+                    "key": "eventID",
+                    "value": "01"
+                },
+                {
+                    "key": "eventCategory",
+                    "value": "search"
+                },
+                {
+                    "key": "eventAction",
+                    "value": "website"
+                },
+                {
+                    "key": "eventLabel",
+                    "value": "$$$keyword$$$"
+                }
+            ],
+            "image": "https://picsum.photos/600/600",
+            "link_url": "https://www.linkSitoWeb.it",
+            "priority": "Mandatory"
+        },
+        {
+            "id": "2",
+            "title": "Product Select Size",
+            "action": "quando l'utente seleziona la taglia nella pagina prodotto.",
+            "note": "",
+            "parameter": [
+                {
+                    "key": "event",
+                    "value": "GAevent"
+                },
+                {
+                    "key": "eventID",
+                    "value": "02"
+                },
+                {
+                    "key": "eventCategory",
+                    "value": "product"
+                },
+                {
+                    "key": "eventAction",
+                    "value": "select_size"
+                },
+                {
+                    "key": "eventLabel",
+                    "value": "$$$size$$$"
+                }
+            ],
+            "image": "https://picsum.photos/600/600",
+            "link_url": "https://www.linkSitoWeb.it",
+            "priority": "High"
+        },
+        {
+            "id": "3",
+            "title": "Check Availability Size",
+            "action": "quando l'utente verifica la disponibilità in negozio selezionando la taglia.",
+            "note": "",
+            "parameter": [
+                {
+                    "key": "event",
+                    "value": "GAevent"
+                },
+                {
+                    "key": "eventID",
+                    "value": "03"
+                },
+                {
+                    "key": "eventCategory",
+                    "value": "check_availability"
+                },
+                {
+                    "key": "eventAction",
+                    "value": "$$$code10$$$"
+                },
+                {
+                    "key": "eventLabel",
+                    "value": "$$$size$$$"
+                }
+            ],
+            "image": "https://picsum.photos/600/600",
+            "link_url": "https://www.linkSitoWeb.it",
+            "priority": "Medium"
+        }
+    ]
+}

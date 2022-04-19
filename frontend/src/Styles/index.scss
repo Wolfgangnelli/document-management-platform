@@ -1,0 +1,134 @@
+@import "../Themes/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "../Themes/bootswatch";
+
+html,
+body {
+  font-size: 17px;
+}
+h1 {
+  background-image: linear-gradient(
+    to left,
+    $blue-1,
+    $purple-1,
+    $pink-1
+  ) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+code.code-tag {
+  font-family: Consolas, "courier new";
+  color: crimson;
+  background-color: #dad6d698;
+  padding: 2px;
+  font-size: 105%;
+}
+ul.list-gtm-std {
+  list-style: none;
+}
+ul.list-gtm-std li::before {
+  content: "\2022";
+  color: whitesmoke;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.sheet-overlay {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4;
+  background: $black;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 5;
+}
+.span-green {
+  color: $blue-1-light;
+}
+.btn-goBack-bg {
+  background-image: radial-gradient(
+    circle at 100% 0px,
+    rgb(119, 59, 113),
+    rgb(31, 12, 29)
+  );
+  //background-color: $purple-1;
+  font-weight: 800;
+  padding: 8px;
+  border: 0;
+}
+
+.btn-goBack-bg:hover {
+  opacity: 0.8;
+}
+.circle {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: $blue-1;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+.form-check-input[type="checkbox"]:checked {
+  background-color: $green !important;
+}
+
+// CSS TRANSITION
+.alert-top-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-top-enter-active {
+  opacity: 1;
+  transform: translateX(-250px);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-top-exit {
+  opacity: 1;
+}
+.alert-top-exit-active {
+  opacity: 0;
+  transform: scale(0.9), translateX(250px);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.mover {
+  top: 15%;
+  left: 85%;
+  z-index: 1200;
+  position: sticky;
+  max-width: 250px;
+}
+// ROUTE TRANSITION
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+// TABLES
+th {
+  color: $pink-1 !important;
+}

@@ -1,0 +1,57 @@
+@import "../../Themes/variables";
+
+.sidepanel {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 59.5px;
+  right: 0;
+  background-color: $scrollpane-bg;
+  overflow-x: hidden;
+  padding: 10px 0px 100px 0px;
+  transition: 0.8s;
+}
+
+/* @media (min-width: 768px) { 
+  .sidepanel {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 6;
+    top: 0;
+    right: 0;
+    background-color: $gray-300;
+    overflow-x: hidden;
+    padding: 63px 0px 100px 0px;
+    transition: 0.8s;
+  }
+ } */
+
+#sheet-panel-variable {
+  z-index: 7 !important;
+}
+.sidepanel .closebutton {
+  font-size: 20px;
+  cursor: pointer;
+  //border: 2px solid $cyan;
+  background-color: rgba(87, 180, 251, 0.2);
+  background-image: none !important;
+  color: $white;
+}
+.sidepanel .closebutton:hover {
+  color: $blue-1-light;
+  //border: 2px solid $cyan;
+}
+.sheet-overlay-panel {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4;
+  background: $black;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 5;
+}

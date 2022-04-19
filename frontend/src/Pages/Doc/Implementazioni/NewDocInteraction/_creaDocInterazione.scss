@@ -1,0 +1,23 @@
+@import "../../../../Themes/variables";
+
+.input-drag-drop {
+  width: 50% !important;
+  height: 150px !important;
+}
+.area {
+  min-width: 25em;
+  padding: 15px;
+  border: 1px solid #333;
+  background: $blue-super-light;
+  color: white;
+  border-radius: 15px;
+}
+#dropZone {
+  border: 2px dashed white;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 50px;
+  text-align: center;
+  font: 21pt bold arial;
+  color: white;
+}

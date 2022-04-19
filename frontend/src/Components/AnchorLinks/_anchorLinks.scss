@@ -1,0 +1,17 @@
+@import "../../Themes/variables";
+
+ul {
+  list-style-type: none;
+}
+li.hashtag {
+  color: $blue-super-light;
+}
+li.hashtag::before {
+  content: "# ";
+  margin: 0 0 0 -10px;
+  padding: 5px 0 5px 0;
+}
+li.hashtag a {
+  text-decoration: underline;
+  color: $blue-super-light;
+}

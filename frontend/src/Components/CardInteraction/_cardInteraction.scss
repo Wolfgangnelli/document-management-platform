@@ -1,0 +1,13 @@
+@import "../../Themes/variables";
+
+h2.card-header {
+  color: $red;
+}
+
+.border-gradient-priority {
+  border-bottom: 6px solid $blue-super-light;
+  border-top: 1px solid $blue-super-light;
+  border-left: 1px solid $blue-super-light;
+  border-right: 1px solid $blue-super-light;
+  border-radius: 1rem;
+}

@@ -1,0 +1,7 @@
+@import "../../../Themes/variables";
+
+.modal-content {
+  background-color: $scrollpane-bg !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+}

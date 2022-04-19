@@ -1,0 +1,105 @@
+[
+    {
+    "snippetName": "product impression",
+    "ecommerce": {
+    "currencyCode": "$$$currency_code$$$",
+    "items": [
+        {
+            "key": "name",
+            "value": "$$$product_name$$$"
+        },
+        {
+            "key": "id",
+            "value": "$$$product_id$$$"
+        },
+        {
+            "key": "price",
+            "value": "$$$product_price$$$"
+        },
+        {
+            "key": "brand",
+            "value": "$$$brand$$$"
+        },
+        {
+            "key": "list",
+            "value": "$$$list_type$$$"
+        },
+        {
+            "key": "position",
+            "value": "$$$product_position$$$"
+        }
+    ]
+}
+},
+{
+"snippetName": "product click",
+"ecommerce": {
+"click": {
+    "actionField": {
+        "list": "$$$list_type$$$"
+    },
+    "item": [
+        {
+            "key": "name",
+            "value": "$$$product_name$$$"
+        },
+        {
+            "key": "id",
+            "value": "$$$product_id$$$"
+        },
+        {
+            "key": "price",
+            "value": "$$$product_price$$$"
+        },
+        {
+            "key": "brand",
+            "value": "$$$brand$$$"
+        },
+        {
+            "key": "list",
+            "value": "$$$list_type$$$"
+        },
+        {
+            "key": "position",
+            "value": "$$$product_position$$$"
+        }
+    ]
+}
+}},
+
+{
+    "snippetName": "product detail",
+    "ecommerce": {
+    "detail": {
+        "actionField": {
+            "list": "$$$list_type$$$"
+        },
+        "item": [
+            {
+                "key": "name",
+                "value": "$$$product_name$$$"
+            },
+            {
+                "key": "id",
+                "value": "$$$product_id$$$"
+            },
+            {
+                "key": "price",
+                "value": "$$$product_price$$$"
+            },
+            {
+                "key": "brand",
+                "value": "$$$brand$$$"
+            },
+            {
+                "key": "list",
+                "value": "$$$list_type$$$"
+            },
+            {
+                "key": "position",
+                "value": "$$$product_position$$$"
+            }
+        ]
+    }
+    }}
+]
